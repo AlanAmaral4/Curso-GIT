@@ -1,5 +1,17 @@
 body {
-    background-color: floralwhite;
+    background-color: black;
     display: flex;
 }
 
+header {
+    & nav {
+        & ul {
+            & il {
+                & a {
+                    color: dodgerblue;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
