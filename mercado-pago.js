@@ -1,3 +1,2 @@
-const m = "mercado pago"
-const p = "pagamento"
-console.log(m, p)
+var valor = Number.parseFloat.prompt("Digite o valor: ")
+console.log(valor)
