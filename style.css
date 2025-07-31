@@ -1,3 +1,17 @@
 body {
-    background-color: blue;
+    background-color: black;
+}
+
+
+header {
+    & nav {
+        & ul {
+            & il {
+                & a {
+                    color: dodgerblue;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 }
